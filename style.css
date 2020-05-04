@@ -322,6 +322,7 @@ a:hover {
     z-index: 1;
 }
 
+
 .nav > li {
     float: left;
     margin-top: 4px;
@@ -534,8 +535,12 @@ a[data-lightbox] {
     position: relative;
     display: block;
     text-align: center;
+} /*modifications*/
+.modif-2 img {
+    margin-right: auto;
+    margin-left: auto;
 }
-
+/* fin de modifications*/
 a[data-lightbox]:hover::before {
     content: "+";
     font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial;
@@ -651,9 +656,17 @@ label,
 a {
     font-family: "helvetica";
     font-weight: 400;
-    color: #575757!important;
+    color: #2e2d2d!important;
 }
-
+/* modification rajout */
+.modif-1 p {
+    font-family: "helvetica";
+    font-size: 1.2em;
+}
+.modif-1 :nth-child(2) {
+    font-size: 0.9em;
+}
+/*  fin modification */
 .container {
     max-width: 1000px;
 }
@@ -677,7 +690,8 @@ a {
 }
 
 p {
-    font-size: 11px;
+    /*modif*/
+    font-size: 15px;
 }
 
 .tight-width-whitespace {
@@ -771,20 +785,26 @@ h4 {
 }
 
 .bgc-atomic-tangerine {
-    background-color: #F3976C;
+    background-color: #b6420c; /* modifications #F3976C*/
 }
 
 .tc-white {
-    color: #F3976C!important;
+    color: #200b01!important;/* modifications #F3976C*/
+}
+.modif-5 {
+    color: #200b01!important;/* modifications #F3976C*/
+}
+.modif-6 {
+    color: #200b01!important;/* modifications #F3976C*/
 }
 
 .btn-atomic-tangerine {
-    background: #F3976C;
+    background: #b6420c; /* modifications #F3976C*/
     color: #FFFFFF!important;
 }
 
 .btn-atomic-tangerine:hover {
-    background: #c27956!important;
+    background: #b6420c!important; /* modifications couleur #F3976C*/
     color: #FFFFFF!important;
 }
 
